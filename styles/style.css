@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* banner styles */
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/Banner\ Image.png');
@@ -13,6 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,17 +45,31 @@
 }
 /* Deals sectiom */
 .deals-section{
-   
-    
-}.deal-section-content{
-     width: 802px;
-    height: 806px;
-    display: flex;
+    width: 803px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: auto;
 }
-.deals-section h1{
+.discounted{
     font-size: 88px;
     font-weight: bold;
     color: #FF0000;
-    justify-content: center;
+    margin: 48px;
+}
+.offer{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.discounted1{
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 48px;
+}
+deal-image{
+    width: 803px;
+    height: 500px;
+    margin-bottom: 120px;
 }
