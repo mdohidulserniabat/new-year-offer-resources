@@ -73,3 +73,30 @@ deal-image{
     height: 500px;
     margin-bottom: 120px;
 }
+/* party section start */
+.party{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.party-section{
+    background-image: url('../images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin-top: 48px;
+    
+}
+.party-title{
+    font-size: 64px;
+    color: #FFFFFF;
+    width: 642px;
+    
+    text-align: center;
+}
+.paragrap-party{
+    font-size: 18px;
+    color: #FFFFFF;
+    
+    
+    width: 697px;
+}
