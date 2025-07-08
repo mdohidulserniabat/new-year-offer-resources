@@ -1,0 +1,30 @@
+/* banner styles */
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+
+}
+.banner h1{
+    color: white;
+    font-size: 72px;
+    width: 632px;
+    height: 190px;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+.banner h4{
+    color: white;
+    font-size: 32px;
+    width: 632px;
+    /* height: 190px; */
+    text-align: center;
+    
+}
