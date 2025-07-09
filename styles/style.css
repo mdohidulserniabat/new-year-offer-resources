@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     background-size: cover;
-   background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -43,8 +43,9 @@
     text-align: center;
 
 }
+
 /* Deals sectiom */
-.deals-section{
+.deals-section {
     width: 803px;
     /* display: flex; */
     justify-content: center;
@@ -52,51 +53,73 @@
     text-align: center;
     margin: auto;
 }
-.discounted{
+
+.discounted {
     font-size: 88px;
     font-weight: bold;
     color: #FF0000;
     margin: 48px;
 }
-.offer{
+
+.offer {
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 16px;
 }
-.discounted1{
+
+.discounted1 {
     font-size: 48px;
     color: #070211;
     margin-bottom: 48px;
 }
-deal-image{
+
+deal-image {
     width: 803px;
     height: 500px;
     margin-bottom: 120px;
 }
+
 /* party section start */
-.party{
+.party {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
-.party-section{
+
+.party-section {
     background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 1320px;
     height: 600px;
     margin-top: 48px;
-    
+    padding: 126px;
+
 }
-.party-title{
+
+.party-section .party-title {
+    color: white;
     font-size: 64px;
-    color: #FFFFFF;
-    width: 642px;
-    
-    text-align: center;
 }
-.paragrap-party{
+
+.party-section .paragrap-party {
+    color: white;
     font-size: 18px;
-    color: #FFFFFF;
-    
-    
-    width: 697px;
+    margin-top: 24px;
+}
+
+.party-section .party-button {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin-top: 48px;
+}
+.venu-time{
+    width: 1320px;
+    height: 482px;
+    background-color: #fff2f2;
 }
